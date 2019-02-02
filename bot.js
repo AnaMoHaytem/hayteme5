@@ -1,14 +1,14 @@
 ﻿const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "1";
+var prefix = "5";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);  
 });
 
 client.on('ready', async() => {
-var server = "520294943353339915"; // ايدي السررفر
-var channel = "523072589388578817";//ايدي الروم
+var server = "528919615259017228"; // ايدي السررفر
+var channel = "529341886125834280";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('** HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom , HayTom **')
     },305);
